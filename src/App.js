@@ -45,6 +45,10 @@ function App() {
           window.location.href = 'https://opensea.io/'; 
           return null;
         }}/>
+        <Route path='/discord' component={() => { 
+          window.location.href = 'https://discord.gg/kP5G3hmz'; 
+          return null;
+        }}/>
       </Switch>
       <Footer />
     </>

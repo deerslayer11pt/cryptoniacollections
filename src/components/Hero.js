@@ -51,7 +51,7 @@ const Hero = () => {
                     </div>
                     <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
                         <div class="bg-gradient-to-t from-siteColors-purp to-siteColors-fade border-2 border-gray-600 px-4 py-6 rounded-lg transform transition duration-500 hover:scale-110">
-                            <div className="w-card h-card bg-card1 bg-no-repeat bg-contain bg-center"></div>
+                            <div className="w-card h-card bg-card3 bg-no-repeat bg-contain bg-center"></div>
                         </div>
                     </div>
                 </div>

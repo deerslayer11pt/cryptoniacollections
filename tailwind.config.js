@@ -5,8 +5,9 @@ module.exports = {
     extend: {
       backgroundImage: (theme) => ({
         'home-back': "url('/src/images/HomeBack.png')",
-        'card1': "url('/src/images/card1.png')",
+        'card1': "url('/src/images/extraLion.png')",
         'card2': "url('/src/images/card2.png')",
+        'card3': "url('/src/images/extraLion2.png')",
       }),
       colors: {
         siteColors: {
