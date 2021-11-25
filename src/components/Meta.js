@@ -9,7 +9,7 @@ const Meta = () => {
                 DNA for a world of possibilities. What could be at the mysterious mountains up north? 
                  </p>
                 <p>--Winter is coming--</p>
-                <p>***Hopefully SNOWCONES!***</p>
+                <p>**Hopefully SNOWCONES!**</p>
             </div>
             <div><img src="/genImgs/metaMap2.png" alt="mi mappo" /></div>
         </div>
