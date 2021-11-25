@@ -42,15 +42,15 @@ function App() {
         <Route path="/coll" exact component={Collections} />
         <Route path="/rmap" exact component={Rmap} />
         <Route path='/opensea' component={() => { 
-          window.location.href = 'https://opensea.io/'; 
+          window.location.replace('https://opensea.io/'); 
           return null;
         }}/>
         <Route path='/discord' component={() => { 
-          window.location.href = 'https://discord.gg/kP5G3hmz'; 
+          window.location.replace('https://discord.gg/kP5G3hmz'); 
           return null;
         }}/>
         <Route path='/twitter' component={() => { 
-          window.location.href = 'https://twitter.com/cryptoniaworld'; 
+          window.location.replace('https://twitter.com/cryptoniaworld'); 
           return null;
         }}/>
       </Switch>

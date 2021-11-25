@@ -11,7 +11,7 @@ const Meta = () => {
                 <p>--Winter is coming--</p>
                 <p>***Hopefully SNOWCONES!***</p>
             </div>
-            <div><img src="/genImgs/metaMap.png" alt="mi mappo" /></div>
+            <div><img src="/genImgs/metaMap2.png" alt="mi mappo" /></div>
         </div>
     )
 }
