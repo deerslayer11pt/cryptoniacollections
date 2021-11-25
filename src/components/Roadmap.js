@@ -5,7 +5,7 @@ const Roadmap = () => {
         <section class="bg-siteColors-backColor max-w-full py-10">
             <div class="container bg-siteColors-backColor mx-auto w-full h-full">
                 <div className="items-center justify-center flex pt-6">
-                    <div className="text-center text-5xl text-black py-4 px-6 bg-siteColors-purp rounded-xl drop-shadow-md font-bold">*Placeholder Roadmap Phrase*</div>
+                    <div className="text-center text-5xl text-black py-4 px-6 bg-siteColors-purp rounded-xl drop-shadow-md font-bold">Roadmap</div>
                 </div>
             <div class="relative wrap overflow-hidden p-10 h-full">
             <div class="border-2-2 border-siteColors-purp h-full border absolute left-1/2"></div>

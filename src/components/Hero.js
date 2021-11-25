@@ -22,6 +22,11 @@ const Hero = () => {
                         MINTING
                     </button>
                     </Link>
+                    <Link to="/twitter">
+                    <button class="py-2 px-4 mt-5 bg-siteColors-backColor rounded-lg text-white font-semibold hover:text-siteColors-backColor hover:bg-siteColors-main transition duration-200">
+                        TWITTER
+                    </button>
+                    </Link>
                     </footer>
                 </div>
             </div>

@@ -49,6 +49,10 @@ function App() {
           window.location.href = 'https://discord.gg/kP5G3hmz'; 
           return null;
         }}/>
+        <Route path='/twitter' component={() => { 
+          window.location.href = 'https://twitter.com/cryptoniaworld'; 
+          return null;
+        }}/>
       </Switch>
       <Footer />
     </>

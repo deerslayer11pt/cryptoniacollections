@@ -66,7 +66,8 @@ const faq = () => {
                         <summary className="py-2 outline-none cursor-pointer focus:underline text-siteColors-purp text-lg">How to interact with us?</summary>
                         <div className="px-4 pb-4 space-y-2 text-siteColors-purp">
                             <p>Connect with us at our discord server!</p>
-                            <Link to="/discord"><button type="button" className="px-8 py-3 mt-5 font-semibold rounded-full bg-siteColors-purp text-black">Discord</button></Link>
+                            <Link to="/discord"><button type="button" className="px-8 py-3 mt-5 mx-4 font-semibold rounded-full bg-siteColors-purp text-black">Discord</button></Link>
+                            <Link to="/twitter"><button type="button" className="px-8 py-3 mt-5 font-semibold rounded-full bg-siteColors-purp text-black">Twitter</button></Link>
                         </div>
                     </details>
                 </div>

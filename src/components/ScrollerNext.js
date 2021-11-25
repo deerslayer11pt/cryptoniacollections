@@ -1,12 +1,10 @@
-import React from 'react';
-import '../photoScroller/photoScroller.css';
+import React from 'react'
 
-const Scroller = () => {
+const ScrollerNext = () => {
     return (
-        //Section Div
         <div className="max-w-full h-5/6 flex flex-col bg-siteColors-backColor items-center overflow-hidden">
-            <div className="text-5xl text-siteColors-purp pt-20 pb-10">Current Project: Incubator Genesis</div>
-            <div className="text-xl text-siteColors-purp w-1/2 text-center pb-10"><p>Incubator Genesis is our premium mint pass used to mint one NFT within every collection of Cryptonia!</p></div>
+            <div className="text-5xl text-siteColors-purp pt-20 pb-10">Next Project: Lions of Cryptonia</div>
+            <div className="text-xl text-siteColors-purp w-1/2 text-center pb-10"><p>Our first foray into our world, where every NFT comes with a majestic lion and elegant girl. Look out for the confuzzled scientists and a spicy meme girl.</p></div>
             <div class="marquee">
                 <ul class="marquee-content">
                     <li><img src="/scrollerImgs/scroller1.png" alt="scroll pic 1" /></li>
@@ -28,4 +26,4 @@ const Scroller = () => {
     )
 }
 
-export default Scroller
+export default ScrollerNext
