@@ -15,7 +15,7 @@ const Navbar = ( {toggle} ) => {
                         <Link to="/rmap" className="bg-siteColors-backColor hover:bg-siteColors-main text-siteColors-text hover:text-siteColors-backColor py-2 px-4 transition duration-300">Roadmap</Link>
                         <Link to="/about" className="bg-siteColors-backColor hover:bg-siteColors-main text-siteColors-text hover:text-siteColors-backColor py-2 px-4 transition duration-300">About</Link>
                         <Link to="/mint" className="bg-siteColors-backColor hover:bg-siteColors-main text-siteColors-text hover:text-siteColors-backColor py-2 px-4 transition duration-300">Mint</Link>
-                        <Link to="/stake" className="bg-siteColors-backColor hover:bg-siteColors-main text-siteColors-text hover:text-siteColors-backColor py-2 px-4 rounded-br-xl transition duration-300">Staking</Link>  
+                        {/*<Link to="/stake" className="bg-siteColors-backColor hover:bg-siteColors-main text-siteColors-text hover:text-siteColors-backColor py-2 px-4 rounded-br-xl transition duration-300">Staking</Link>*/}  
                     </div>
                     <div className='md:hidden flex-center pr-8 bg-siteColors-backColor rounded-full py-1 pl-8' onClick={toggle}>
                         <button className="mobile-menu-button">
