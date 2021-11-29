@@ -9,7 +9,7 @@ const Scroller = () => {
                 <div className="w-3/4 h-2 border-2 border-siteColors-purp"></div>
             </div>
             <div className="max-w-full h-auto py-40 justify-center flex flex-col bg-siteColors-backColor items-center overflow-hidden">
-                <div className="text-5xl text-siteColors-purp pt-20 pb-10">Current Project: Incubator Genesis</div>
+                <div className="text-3xl md:text-5xl text-siteColors-purp pt-20 pb-10">Current Project: Incubator Genesis</div>
                 <div className="text-xl text-siteColors-purp w-1/2 text-center pb-10"><p>Incubator Genesis is our premium mint pass used to mint one NFT within every collection of Cryptonia!</p></div>
                 <div class="marquee">
                     <ul class="marquee-content">

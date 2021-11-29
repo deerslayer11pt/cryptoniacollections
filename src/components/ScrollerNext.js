@@ -4,7 +4,7 @@ const ScrollerNext = () => {
     return (
         <section>
             <div className="max-w-full h-auto py-40 justify-center flex flex-col bg-siteColors-backColor items-center overflow-hidden">
-                <div className="text-5xl text-siteColors-purp pt-20 pb-10">Next Project: Lions of Cryptonia</div>
+                <div className="text-3xl md:text-5xl text-siteColors-purp pt-20 pb-10">Next Project: Lions of Cryptonia</div>
                 <div className="text-xl text-siteColors-purp w-1/2 text-center pb-10"><p>Our first exploration into our world, where every NFT comes with a majestic lion and elegant girl. Look out for the confuzzled scientists and a spicy meme girl.</p></div>
                 <div class="marquee">
                     <ul class="marquee-content">
