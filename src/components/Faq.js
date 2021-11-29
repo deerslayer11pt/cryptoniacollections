@@ -11,19 +11,21 @@ const faq = () => {
                     <details>
                         <summary className="py-2 outline-none cursor-pointer focus:underline text-siteColors-purp text-lg">When is Presale and Public Sale?</summary>
                         <div className="px-4 pb-4 text-siteColors-purp">
-                            <p>To be determined. Presale will last for 48 hours to avoid high gas fees and Public Sale will immediately follow after.</p>
+                            <p>To be determined. Presale will last for 24 hours to avoid high gas fees and Public Sale will immediately follow after.</p>
                         </div>
                     </details>
                     <details>
                         <summary className="py-2 outline-none cursor-pointer focus:underline text-siteColors-purp text-lg">Cost to Mint?</summary>
                         <div className="px-4 pb-4 text-siteColors-purp">
-                            <p>0.05 eth /mint</p>
+                            <p>Current Project: Premium Incubators will sell for 0.125 eth.</p>
+                            <p>Next Project: Lions to sell for 0.05 eth.</p>
                         </div>
                     </details>
                     <details>
                         <summary className="py-2 outline-none cursor-pointer focus:underline text-siteColors-purp text-lg">How do I mint some?</summary>
                         <div className="px-4 pb-4 space-y-2 text-siteColors-purp">
-                            <p>When sale is open, you may click the "Mint" button on [insert website link] - this will prompt you to connect to Metamask and mint one Lion.</p>
+                            <p>When sale is open, you may click the "Mint" button on this site.</p>
+                            <p>This will prompt you to connect your metamask wallet and you may select your quantity to mint.</p>
                         </div>
                     </details>
                     <details>
@@ -41,13 +43,15 @@ const faq = () => {
                     <details>
                         <summary className="py-2 outline-none cursor-pointer focus:underline text-siteColors-purp text-lg">How many are there total?</summary>
                         <div className="px-4 pb-4 space-y-2 text-siteColors-purp">
-                            <p>There will be a total of 5,500 lions and their owners. 100 of these will be reserved for giveaways and future events.</p>
+                            <p>Current Project: There will be a total of 275 Premium Incubators.</p>
+                            <p>Next Project: There will be a total of 5,500 Lions. 100 of these will be reserved for giveaways and future events.</p> 
                         </div>
                     </details>
                     <details>
                         <summary className="py-2 outline-none cursor-pointer focus:underline text-siteColors-purp text-lg">Are there minting limits per address?</summary>
                         <div className="px-4 pb-4 space-y-2 text-siteColors-purp">
-                            <p>Yes, a maximum total of 6 per address across both presale and public sale.</p>
+                            <p>Current Project: You may mint two Premium Incubators per wallet address</p>
+                            <p>Next Project: You may mint 6 Lion NFT's per wallet address</p>
                         </div>
                     </details>
                     <details>
