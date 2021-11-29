@@ -2,8 +2,8 @@ import React from 'react'
 
 const Roadmap = () => {
     return (
-        <section class="bg-siteColors-backColor max-w-full py-10">
-            <div class="container bg-siteColors-backColor mx-auto w-full h-full">
+        <section class="bg-siteColors-backColor max-w-full flex flex-col py-20">
+            <div class="container bg-siteColors-backColor mx-auto w-full h-auto">
                 <div className="items-center justify-center flex pt-6">
                     <div className="text-center text-5xl text-black py-4 px-6 bg-siteColors-purp rounded-xl drop-shadow-md font-bold">Roadmap</div>
                 </div>
