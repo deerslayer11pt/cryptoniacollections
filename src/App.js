@@ -9,6 +9,7 @@ import About from './pages/about';
 import Collections from './pages/collections';
 import Mint from './pages/mint';
 import Rmap from './pages/roadmap';
+import Stake from './pages/staking';
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);
@@ -41,6 +42,7 @@ function App() {
         <Route path="/mint" exact component={Mint} />
         <Route path="/coll" exact component={Collections} />
         <Route path="/rmap" exact component={Rmap} />
+        <Route path="/stake" exact component={Stake} />
         <Route path='/opensea' component={() => { 
           window.location.replace('https://opensea.io/'); 
           return null;

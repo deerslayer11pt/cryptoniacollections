@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 const Hero = () => {
     return (
-        <div className="max-w-full h-screen flex flex-col bg-home-back bg-no-repeat bg-contain bg-siteColors-backColor">
+        <section className="max-w-full h-screen flex flex-col bg-home-back bg-no-repeat bg-contain bg-siteColors-backColor pb-5">
             <div class="rounded-2xl shadow-xl bg-siteColors-purp w-1/5 mt-20 ml-20 transform transition duration-500 hover:scale-110">
                 <div class="p-5">
                     {/*Card Header*/}
@@ -61,7 +61,7 @@ const Hero = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
 

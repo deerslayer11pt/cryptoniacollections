@@ -2,7 +2,7 @@ import React from 'react'
 
 const About = () => {
     return (
-        <section className="py-6 dark:bg-coolGray-800 dark:text-coolGray-100 h-full max-w-full bg-siteColors-backColor">
+        <section className="py-6 h-full max-w-full bg-siteColors-backColor">
             <div className="container flex flex-col items-center justify-center p-4 mx-auto sm:p-10 h-screen">
                 <p className="p-2 text-lg font-medium tracking-wider text-center uppercase text-siteColors-purp">Development team</p>
                 <h1 className="text-4xl font-bold leading-none text-center text-siteColors-purp sm:text-5xl">The talended people behind the scenes</h1>

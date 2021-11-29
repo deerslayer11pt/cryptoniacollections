@@ -4,7 +4,7 @@ import '../photoScroller/photoScroller.css';
 const Scroller = () => {
     return (
         //Section Div
-        <section>
+        <section className="flex flex-col max-w-full h-auto">
             <div className="flex flex-col max-w-full items-center py-10 bg-siteColors-backColor">
                 <div className="w-3/4 h-2 border-2 border-siteColors-purp"></div>
             </div>
