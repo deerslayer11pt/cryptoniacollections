@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom'
 
 const faq = () => {
     return (
-        <section className="bg-siteColors-backColor pb-40 max-w-full">
-            <div className="container flex flex-col justify-center p-4 mx-auto md:p-8">
+        <section className="bg-siteColors-backColor pb-40 max-w-full h-screen">
+            <div className="container flex flex-col justify-center p-4 mx-auto md:p-8 h-screen">
                 <p className="p-2 text-sm font-medium tracking-wider text-center uppercase text-siteColors-purp">How it works</p>
                 <h2 className="mb-12 text-4xl font-bold leading-none text-center sm:text-5xl text-siteColors-purp">Frequently Asked Questions</h2>
                 <div className="flex flex-col divide-y sm:px-8 lg:px-12 xl:px-32 divide-siteColors-purp">

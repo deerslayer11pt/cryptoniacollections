@@ -55,6 +55,14 @@ function App() {
           window.location.replace('https://twitter.com/cryptoniaworld'); 
           return null;
         }}/>
+        <Route path='/christinaInsta' component={() => { 
+          window.location.replace('https://www.instagram.com/buitie/'); 
+          return null;
+        }}/>
+        <Route path='/michelleInsta' component={() => { 
+          window.location.replace('https://www.instagram.com/mojelly_/'); 
+          return null;
+        }}/>
       </Switch>
       <Footer />
     </>
